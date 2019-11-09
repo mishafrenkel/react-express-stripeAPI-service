@@ -3,6 +3,8 @@ const SERVER_CONFIGS = require('./constants/server');
 const configureServer = require('./server');
 const configureRoutes = require('./routes');
 
+require('dotenv');
+
 const app = express();
 
 configureServer(app);
