@@ -1,9 +1,9 @@
-const express = require('express');
-const SERVER_CONFIGS = require('./constants/server');
-const configureServer = require('./server');
-const configureRoutes = require('./routes');
+import express from 'express';
 
-require('dotenv');
+import SERVER_CONFIGS from './constants/server';
+
+import configureServer from './server';
+import configureRoutes from './routes';
 
 const app = express();
 
