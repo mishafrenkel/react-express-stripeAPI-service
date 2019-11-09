@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Checkout from './Checkout';
 import './App.css';
 
 function App() {
@@ -10,15 +11,14 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <p>
+        <Checkout
+          name={'Donation'}
+          description={'Only the Book'}
+          amount={1}
+        />
+      </p>
     </div>
   );
 }
