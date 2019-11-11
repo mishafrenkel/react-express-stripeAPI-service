@@ -7,7 +7,7 @@
     "start": "babel-node src/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "postinstall": "cd frontend && npm install && npm start"
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
