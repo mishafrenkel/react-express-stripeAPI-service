@@ -6,16 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
       <p>
         <Checkout
-          name={'Donation'}
-          description={'Only the Book'}
+          name={'CrowdSourcing Landing Page for Michael'}
+          description={'Thank You!'}
           amount={1}
         />
       </p>

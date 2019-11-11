@@ -2,7 +2,7 @@ import path from 'path';
 
 const SERVER_CONFIGS = {
   PRODUCTION: process.env.NODE_ENV === 'production',
-  PORT: process.env.PORT || 8888,
+  PORT: process.env.PORT || 8080,
   ROOT: path.resolve(__dirname, '..'),
 };
 
